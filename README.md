@@ -49,7 +49,7 @@ We propose Collaborative Decoding (CoDe), a novel decoding strategy tailored to 
 
 
 ## 💻  Model Zoo
-We provide drafter VAR models and refiner VAR models, which are on <a href='https://huggingface.co/Zigeng/VAR_CoDe'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-VAR_CoDe/var-yellow'></a> or can be downloaded from the following links:
+We provide drafter VAR models and refiner VAR models, which are on <a href='https://huggingface.co/Zigeng/VAR_CoDe'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-VAR_CoDe-yellow'></a> or can be downloaded from the following links:
 
 | Draft step | Refine step |reso. |   FID | IS | Drafter VAR🤗 | Refiner VAR🤗|
 |:----------:|:-----------:|:----:|:-----:|:--:|:-----------------:|:----------------:|
