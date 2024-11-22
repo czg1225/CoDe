@@ -11,7 +11,7 @@
   <a href="https://czg1225.github.io/asyncdiff_page/">
     <img src="https://img.shields.io/badge/Project-Page-924E7D.svg" alt="Project">
   </a>
-  <a href="https://czg1225.github.io/asyncdiff_page/">
+  <a href="https://huggingface.co/Zigeng/VAR_CoDe">
     <img src="https://img.shields.io/badge/HuggingFace-Weights-FFB000.svg" alt="Project">
   </a>
 </div>
@@ -49,14 +49,14 @@ We propose Collaborative Decoding (CoDe), a novel decoding strategy tailored to 
 
 
 ## 💻  Model Zoo
-We provide drafter VAR models and refiner VAR models, which are on <a href='https://huggingface.co/FoundationVision/var'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-FoundationVision/var-yellow'></a> or can be downloaded from the following links:
+We provide drafter VAR models and refiner VAR models, which are on <a href='https://huggingface.co/Zigeng/VAR_CoDe'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-VAR_CoDe/var-yellow'></a> or can be downloaded from the following links:
 
 | Draft step | Refine step |reso. |   FID | IS | Drafter VAR🤗 | Refiner VAR🤗|
 |:----------:|:-----------:|:----:|:-----:|:--:|:-----------------:|:----------------:|
-| 9 steps| 1 steps|   256   |    1.94    |296    | [drafter_9.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |[refiner_9.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |
-| 8 steps| 2 steps|   256   |    1.98    |302    | [drafter_8.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d20.pth) |[refiner_8.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |
-| 7 steps| 3 steps|   256   |    2.11    |303    | [drafter_7.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d24.pth) |[refiner_7.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |
-| 6 steps| 4 steps|   256   |    2.27    |397    | [drafter_6.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d30.pth) |[refiner_6.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |
+| 9 steps| 1 steps|   256   |    1.94    |296    | [drafter_9.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/drafter_9.pth) |[refiner_9.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/refiner_9.pth) |
+| 8 steps| 2 steps|   256   |    1.98    |302    | [drafter_8.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/drafter_8.pth) |[refiner_8.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/refiner_8.pth) |
+| 7 steps| 3 steps|   256   |    2.11    |303    | [drafter_7.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/drafter_7.pth) |[refiner_7.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/refiner_7.pth) |
+| 6 steps| 4 steps|   256   |    2.27    |397    | [drafter_6.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/drafter_6.pth) |[refiner_6.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/refiner_6.pth) |
 
 
 Note: The VQVAE [vae_ch160v4096z32.pth](https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.pth) is also needed.
