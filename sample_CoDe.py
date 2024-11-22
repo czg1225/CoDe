@@ -84,7 +84,7 @@ if args.training_free:
     var_draft.load_state_dict(torch.load(var_draft_ckpt, map_location='cpu'), strict=True)
     var_refine.load_state_dict(torch.load(var_refine_ckpt, map_location='cpu'), strict=True)
 else:
-    hf_home = 'https://huggingface.co/FoundationVision/var/resolve/main'
+    hf_home = 'https://huggingface.co/Zigeng/VAR_CoDe/resolve/main'
     var_draft_ckpt, var_refine_ckpt = f'drafter_{draft_steps}.pth', f'refiner_{draft_steps}.pth'
     if not osp.exists(var_draft_ckpt): os.system(f'wget {hf_home}/{var_draft_ckpt}')
     if not osp.exists(var_refine_ckpt): os.system(f'wget {hf_home}/{var_refine_ckpt}')

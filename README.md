@@ -5,10 +5,10 @@
   <a href="https://opensource.org/license/mit-0">
     <img alt="MIT" src="https://img.shields.io/badge/License-MIT-4E94CE.svg">
   </a>
-  <a href="https://arxiv.org/abs/2406.06911">
+  <a href="https://github.com/czg1225/CoDe">
     <img src="https://img.shields.io/badge/Paper-Arxiv-darkred.svg" alt="Paper">
   </a>
-  <a href="https://czg1225.github.io/asyncdiff_page/">
+  <a href="https://github.com/czg1225/CoDe">
     <img src="https://img.shields.io/badge/Project-Page-924E7D.svg" alt="Project">
   </a>
   <a href="https://huggingface.co/Zigeng/VAR_CoDe">
@@ -20,7 +20,7 @@
 > **Collaborative Decoding Makes Visual Auto-Regressive Modeling Efficient**   
 > [Zigeng Chen](https://github.com/czg1225), [Xinyin Ma](https://horseee.github.io/), [Gongfan Fang](https://fangggf.github.io/), [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/)   
 > [Learning and Vision Lab](http://lv-nus.org/), National University of Singapore  
-> 🥯[[Paper]](https://arxiv.org/abs/2406.06911)🎄[[Project Page]](https://czg1225.github.io/asyncdiff_page/) 
+> 🥯[[Paper]](https://github.com/czg1225/CoDe)🎄[[Project Page]](https://github.com/czg1225/CoDe) 
 
 
 <div align="center">
@@ -37,7 +37,8 @@ We propose Collaborative Decoding (CoDe), a novel decoding strategy tailored to 
 ![figure](assets/curve.png)
 ![figure](assets/frame.png)
 
-### Updates
+### 🔥Updates
+* 🔥 **November 26, 2024**: Our huggingface page
 * 🔥 **November 26, 2024**: Code and Paper is released!
 
 
