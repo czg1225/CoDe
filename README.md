@@ -8,7 +8,7 @@
   <a href="https://github.com/czg1225/CoDe">
     <img src="https://img.shields.io/badge/Paper-Arxiv-darkred.svg" alt="Paper">
   </a>
-  <a href="https://github.com/czg1225/CoDe">
+  <a href="https://czg1225.github.io/CoDe_page/">
     <img src="https://img.shields.io/badge/Project-Page-924E7D.svg" alt="Project">
   </a>
   <a href="https://huggingface.co/Zigeng/VAR_CoDe">
@@ -20,7 +20,7 @@
 > **Collaborative Decoding Makes Visual Auto-Regressive Modeling Efficient**   
 > [Zigeng Chen](https://github.com/czg1225), [Xinyin Ma](https://horseee.github.io/), [Gongfan Fang](https://fangggf.github.io/), [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/)   
 > [Learning and Vision Lab](http://lv-nus.org/), National University of Singapore  
-> 🥯[[Paper]](https://github.com/czg1225/CoDe)🎄[[Project Page]](https://github.com/czg1225/CoDe) 
+> 🥯[[Paper]](https://github.com/czg1225/CoDe)🎄[[Project Page]](https://czg1225.github.io/CoDe_page/) 
 
 
 <div align="center">
@@ -33,12 +33,12 @@
 <br>
 
 ## 💡 Introduction
-We propose Collaborative Decoding (CoDe), a novel decoding strategy tailored to the VAR framework. CoDe capitalizes on two critical observations: the substantially reduced parameter demands at larger scales and the exclusive generation patterns across different scales. Based on these insights, we partition the multi-scale inference process into a seamless collaboration between a large model and a small model.This collaboration yields remarkable efficiency with minimal impact on quality: CoDe achieves a 1.7x speedup, slashes memory usage by around 50%, and preserves image quality with only a negligible FID increase from 1.95 to 1.98. When drafting steps are further decreased, CoDe can achieve an impressive 2.9x acceleration, reaching over 41 images/s at 256x256 resolution on a single NVIDIA 4090 GPU, while preserving a commendable FID of 2.27.
+We propose Collaborative Decoding (CoDe), a novel decoding strategy tailored for the VAR framework. CoDe capitalizes on two critical observations: the substantially reduced parameter demands at larger scales and the exclusive generation patterns across different scales. Based on these insights, we partition the multi-scale inference process into a seamless collaboration between a large model and a small model.This collaboration yields remarkable efficiency with minimal impact on quality: CoDe achieves a 1.7x speedup, slashes memory usage by around 50%, and preserves image quality with only a negligible FID increase from 1.95 to 1.98. When drafting steps are further decreased, CoDe can achieve an impressive 2.9x acceleration, reaching over 41 images/s at 256x256 resolution on a single NVIDIA 4090 GPU, while preserving a commendable FID of 2.27.
 ![figure](assets/curve.png)
 ![figure](assets/frame.png)
 
 ### 🔥Updates
-* 🔥 **November 26, 2024**: Our model weights are avalible at huggingface [here](https://huggingface.co/Zigeng/VAR_CoDe)
+* 🔥 **November 26, 2024**: Our model weights are avalible at 🤗 huggingface [here](https://huggingface.co/Zigeng/VAR_CoDe)
 * 🔥 **November 26, 2024**: Code and Paper is released!
 
 
