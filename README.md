@@ -34,8 +34,8 @@
 
 ## 💡 Introduction
 We propose Collaborative Decoding (CoDe), a novel decoding strategy tailored to the VAR framework. CoDe capitalizes on two critical observations: the substantially reduced parameter demands at larger scales and the exclusive generation patterns across different scales. Based on these insights, we partition the multi-scale inference process into a seamless collaboration between a large model and a small model.This collaboration yields remarkable efficiency with minimal impact on quality: CoDe achieves a 1.7x speedup, slashes memory usage by around 50%, and preserves image quality with only a negligible FID increase from 1.95 to 1.98. When drafting steps are further decreased, CoDe can achieve an impressive 2.9x acceleration, reaching over 41 images/s at 256x256 resolution on a single NVIDIA 4090 GPU, while preserving a commendable FID of 2.27.
-![AsyncDiff Overview](assets/curve.png)
-![AsyncDiff Overview](assets/frame.png)
+![figure](assets/curve.png)
+![figure](assets/frame.png)
 
 ### Updates
 * 🔥 **November 26, 2024**: Code and Paper is released!
@@ -49,17 +49,17 @@ We propose Collaborative Decoding (CoDe), a novel decoding strategy tailored to 
 
 
 ## 💻  Model Zoo
-We provide VAR models for you to play with, which are on <a href='https://huggingface.co/FoundationVision/var'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-FoundationVision/var-yellow'></a> or can be downloaded from the following links:
+We provide drafter VAR models and refiner VAR models, which are on <a href='https://huggingface.co/FoundationVision/var'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-FoundationVision/var-yellow'></a> or can be downloaded from the following links:
 
-|   Draft step    | Refine step |   FID    | IS |  Speedup | Memory | Drafter weights🤗 | Refiner weights🤗                                                                  |
-|:----------:|:-----:|:--------:|:---------:|:-------:|:-------:|:-------:|:----------------------------------------------------|
-| 9 steps| 1 steps|   3.55   |    0.4    |0.4    |  310M   | [var_d16.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |[var_d16.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |
-| 8 steps| 2 steps  |   2.95   |    0.5    |0.4    |  600M   | [var_d20.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d20.pth) |[var_d16.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |
-| 7 steps| 3 steps  |   2.33   |    0.6    |0.4    |  1.0B   | [var_d24.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d24.pth) |[var_d16.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |
-| 6 steps| 4 steps  |   1.97   |     1     |0.4    |  2.0B   | [var_d30.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d30.pth) |[var_d16.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |
+| Draft step | Refine step |reso. |   FID | IS | Drafter VAR🤗 | Refiner VAR🤗|
+|:----------:|:-----------:|:----:|:-----:|:--:|:-----------------:|:----------------:|
+| 9 steps| 1 steps|   256   |    1.94    |296    | [drafter_9.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |[refiner_9.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |
+| 8 steps| 2 steps|   256   |    1.98    |302    | [drafter_8.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d20.pth) |[refiner_8.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |
+| 7 steps| 3 steps|   256   |    2.11    |303    | [drafter_7.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d24.pth) |[refiner_7.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |
+| 6 steps| 4 steps|   256   |    2.27    |397    | [drafter_6.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d30.pth) |[refiner_6.pth](https://huggingface.co/FoundationVision/var/resolve/main/var_d16.pth) |
 
 
-Note: [vae_ch160v4096z32.pth](https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.pth) is also needed.
+Note: The VQVAE [vae_ch160v4096z32.pth](https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.pth) is also needed.
 
 
 ## ⚡ Inference
@@ -93,9 +93,9 @@ The generated images are saved as both `.PNG` and `.npz`. Then use the [OpenAI's
 
 ## 🚀 Visualization Results
 ### Quanlitative Results
-![AsyncDiff Overview](assets/compare.png)
+![figure](assets/compare.png)
 ### Zero-short Inpainting&Editing (N=8)
-![AsyncDiff Overview](assets/zero_short.png)
+![figure](assets/zero_short.png)
 
 ## Acknowlegdement
 Thanks to [VAR](https://github.com/FoundationVision/VAR) for their wonderful work and codebase!
