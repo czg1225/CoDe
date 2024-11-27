@@ -38,8 +38,8 @@ We propose Collaborative Decoding (CoDe), a novel decoding strategy tailored for
 ![figure](assets/frame.png)
 
 ### 🔥Updates
-* 🔥 **November 26, 2024**: Our model weights are avalible at 🤗 huggingface [here](https://huggingface.co/Zigeng/VAR_CoDe)
-* 🔥 **November 26, 2024**: Code repo and and Paper are released!
+* 🔥 **November 27, 2024**: Our model weights are avalible at 🤗 huggingface [here](https://huggingface.co/Zigeng/VAR_CoDe)
+* 🔥 **November 27, 2024**: Code repo is released! Arxiv paper will coming soon!
 
 
 ## 🔧 Installation
