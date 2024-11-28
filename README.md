@@ -5,7 +5,7 @@
   <a href="https://opensource.org/license/mit-0">
     <img alt="MIT" src="https://img.shields.io/badge/License-MIT-4E94CE.svg">
   </a>
-  <a href="https://github.com/czg1225/CoDe">
+  <a href="https://arxiv.org/abs/2411.17787">
     <img src="https://img.shields.io/badge/Paper-Arxiv-darkred.svg" alt="Paper">
   </a>
   <a href="https://czg1225.github.io/CoDe_page/">
@@ -20,7 +20,7 @@
 > **Collaborative Decoding Makes Visual Auto-Regressive Modeling Efficient**   
 > [Zigeng Chen](https://github.com/czg1225), [Xinyin Ma](https://horseee.github.io/), [Gongfan Fang](https://fangggf.github.io/), [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/)   
 > [Learning and Vision Lab](http://lv-nus.org/), National University of Singapore  
-> 🥯[[Paper]](https://github.com/czg1225/CoDe)🎄[[Project Page]](https://czg1225.github.io/CoDe_page/) 
+> 🥯[[Paper]](https://arxiv.org/abs/2411.17787)🎄[[Project Page]](https://czg1225.github.io/CoDe_page/) 
 
 
 <div align="center">
@@ -38,8 +38,9 @@ We propose Collaborative Decoding (CoDe), a novel decoding strategy tailored for
 ![figure](assets/frame.png)
 
 ### 🔥Updates
+* 🔥 **November 28, 2024**: Our paper is available now!
 * 🔥 **November 27, 2024**: Our model weights are avalible at 🤗 huggingface [here](https://huggingface.co/Zigeng/VAR_CoDe)
-* 🔥 **November 27, 2024**: Code repo is released! Arxiv paper will coming soon!
+* 🔥 **November 27, 2024**: Code repo is released! Arxiv paper will come soon!
 
 
 ## 🔧 Installation
@@ -104,5 +105,10 @@ Thanks to [VAR](https://github.com/FoundationVision/VAR) for their wonderful wor
 ## Citation
 If our research assists your work, please give us a star ⭐ or cite us using:
 ```
-
+@misc{2411.17787,
+Author = {Zigeng Chen and Xinyin Ma and Gongfan Fang and Xinchao Wang},
+Title = {Collaborative Decoding Makes Visual Auto-Regressive Modeling Efficient},
+Year = {2024},
+Eprint = {arXiv:2411.17787},
+}
 ```
