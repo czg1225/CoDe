@@ -22,8 +22,9 @@
 > [Learning and Vision Lab](http://lv-nus.org/), National University of Singapore  
 > 🥯[[Paper]](https://arxiv.org/abs/2411.17787)🎄[[Project Page]](https://czg1225.github.io/CoDe_page/) 
 
-
+<!-- ![figure](assets/intro.png) -->
 <div align="center">
+  <img src="assets/intro.png" width="100%" ></img>
   <img src="assets/teaser.png" width="100%" ></img>
   <br>
   <em>
