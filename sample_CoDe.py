@@ -145,7 +145,7 @@ for i in range(1000):
             chw = PImage.fromarray(chw.astype(np.uint8))
             chw.save(args.output_path+"/"+str(i)+"_"+str(j)+".PNG")
 
-create_npz_from_sample_folder("args.output_path")
+create_npz_from_sample_folder(args.output_path)
 print("#####################sampling completed!#####################")
 
 
