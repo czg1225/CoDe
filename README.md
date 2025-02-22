@@ -19,7 +19,7 @@
 
 > **Collaborative Decoding Makes Visual Auto-Regressive Modeling Efficient**   
 > [Zigeng Chen](https://github.com/czg1225), [Xinyin Ma](https://horseee.github.io/), [Gongfan Fang](https://fangggf.github.io/), [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/)   
-> [Learning and Vision Lab](http://lv-nus.org/), National University of Singapore  
+> [xML Lab](https://sites.google.com/view/xml-nus), National University of Singapore  
 > 🥯[[Paper]](https://arxiv.org/abs/2411.17787)🎄[[Project Page]](https://czg1225.github.io/CoDe_page/) 
 
 <!-- ![figure](assets/intro.png) -->
