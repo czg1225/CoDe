@@ -34,13 +34,14 @@
 <br>
 
 ## 💡 Introduction
-We propose Collaborative Decoding (CoDe), a novel decoding strategy tailored for the VAR framework. CoDe capitalizes on two critical observations: the substantially reduced parameter demands at larger scales and the exclusive generation patterns across different scales. Based on these insights, we partition the multi-scale inference process into a seamless collaboration between a large model and a small model.This collaboration yields remarkable efficiency with minimal impact on quality: CoDe achieves a 1.7x speedup, slashes memory usage by around 50%, and preserves image quality with only a negligible FID increase from 1.95 to 1.98. When drafting steps are further decreased, CoDe can achieve an impressive 2.9x acceleration, reaching over 41 images/s at 256x256 resolution on a single NVIDIA 4090 GPU, while preserving a commendable FID of 2.27.
+We propose Collaborative Decoding (CoDe), a novel decoding strategy tailored for the VAR framework. CoDe capitalizes on two critical observations: the substantially reduced parameter demands at larger scales and the exclusive generation patterns across different scales. Based on these insights, we partition the multi-scale inference process into a seamless collaboration between a large model and a small model. This collaboration yields remarkable efficiency with minimal impact on quality: CoDe achieves a 1.7x speedup, slashes memory usage by around 50%, and preserves image quality with only a negligible FID increase from 1.95 to 1.98. When drafting steps are further decreased, CoDe can achieve an impressive 2.9x acceleration, reaching over 41 images/s at 256x256 resolution on a single NVIDIA 4090 GPU, while preserving a commendable FID of 2.27.
 ![figure](assets/curve.png)
 ![figure](assets/frame.png)
 
 ### 🔥Updates
+* 🎉 **Feburary 27, 2025**: CoDe is accepted by CVPR 2025!
 * 🔥 **November 28, 2024**: Our paper is available now!
-* 🔥 **November 27, 2024**: Our model weights are avalible at 🤗 huggingface [here](https://huggingface.co/Zigeng/VAR_CoDe)
+* 🔥 **November 27, 2024**: Our model weights are available at 🤗 huggingface [here](https://huggingface.co/Zigeng/VAR_CoDe)
 * 🔥 **November 27, 2024**: Code repo is released! Arxiv paper will come soon!
 
 
@@ -95,7 +96,7 @@ The generated images are saved as both `.PNG` and `.npz`. Then use the [OpenAI's
 
 
 ## 🚀 Visualization Results
-### Quanlitative Results
+### Qualitative Results
 ![figure](assets/compare.png)
 ### Zero-short Inpainting&Editing (N=8)
 ![figure](assets/zero_short.png)
