@@ -60,7 +60,7 @@ We provide drafter VAR models and refiner VAR models, which are on <a href='http
 | 9 steps| 1 steps|   256   |    1.94    |296    | [drafter_9.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/drafter_9.pth) |[refiner_9.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/refiner_9.pth) |
 | 8 steps| 2 steps|   256   |    1.98    |302    | [drafter_8.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/drafter_8.pth) |[refiner_8.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/refiner_8.pth) |
 | 7 steps| 3 steps|   256   |    2.11    |303    | [drafter_7.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/drafter_7.pth) |[refiner_7.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/refiner_7.pth) |
-| 6 steps| 4 steps|   256   |    2.27    |397    | [drafter_6.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/drafter_6.pth) |[refiner_6.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/refiner_6.pth) |
+| 6 steps| 4 steps|   256   |    2.27    |297    | [drafter_6.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/drafter_6.pth) |[refiner_6.pth](https://huggingface.co/Zigeng/VAR_CoDe/resolve/main/refiner_6.pth) |
 
 
 Note: The VQVAE [vae_ch160v4096z32.pth](https://huggingface.co/FoundationVision/var/resolve/main/vae_ch160v4096z32.pth) is also needed.
