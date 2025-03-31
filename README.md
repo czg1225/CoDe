@@ -107,10 +107,10 @@ Thanks to [VAR](https://github.com/FoundationVision/VAR) for their wonderful wor
 ## Citation
 If our research assists your work, please give us a star ⭐ or cite us using:
 ```
-@misc{2411.17787,
-Author = {Zigeng Chen and Xinyin Ma and Gongfan Fang and Xinchao Wang},
-Title = {Collaborative Decoding Makes Visual Auto-Regressive Modeling Efficient},
-Year = {2024},
-Eprint = {arXiv:2411.17787},
+@article{chen2024collaborative,
+  title={Collaborative Decoding Makes Visual Auto-Regressive Modeling Efficient},
+  author={Chen, Zigeng and Ma, Xinyin and Fang, Gongfan and Wang, Xinchao},
+  journal={arXiv preprint arXiv:2411.17787},
+  year={2024}
 }
 ```
